@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+.divIdentity, .divInfo, .divMail, .divMessage {
+    display: flex;
+    gap: 10px;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.divIdentity input, .divInfo input {
+    width: 50%;
+}
+
+
+.divInfo input, .divMail input, .divMessage textarea, #prescriptor, #projet {
+    width: 100%;
+
+}
+
+.divIdentity input, .divInfo input, .divInfo input, .divMail input, .divMessage textarea, #prescriptor, #projet {
+    border: none;
+    background-color: #ECECEC;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+.divProjet {
+    margin-bottom: 1rem;
+}
+
+.divCheckbox {
+    margin-bottom: 2rem;
+}
+
+#errorParagraphe {
+    font-size: 0.7rem;
+    color: red;
+}
